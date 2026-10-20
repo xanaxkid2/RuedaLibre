@@ -1,0 +1,52 @@
+
+
+........................................
+
+PESTAÑA NETWORK:
+
+DATOS-
+
+URL : http://127.0.0.1:5500/index.html
+PROTOCOLO : http
+HOST:127.0.0.1.5500
+PUERTO: 5500
+RUTA:/index.html
+PETICION:GET
+CODIGO: 303
+
+.........................................
+
+DIRECCION http://127.0.0.1:5500/promociones.html
+
+RESPUESTA-
+
+(FAILED)net:: ERR_CONECTION_REFUSED
+
+SIGNIFICADO-
+
+significa que el navegador intentó conectarse a un servidor,
+pero este rechazó la conexión.
+
+...........................................
+
+ROLES(HTML,CSS,JS)
+
+HTML-
+
+estructura las vistas 
+y los elementos visibles de contenidos en ella.
+(definir encabezados , titulos , footers , imagenes , menus ....)
+
+CSS-
+
+dar un estilo e identidad visual propia a los 
+elementos establecidos con html
+mediante a clases previamente establecidas.
+
+JS-
+
+es el encargado de otorgar funcionabilidad a los 
+elementos , conectar el front con el back y demas 
+operaciones que requiera la app.
+
+............................................
