@@ -50,3 +50,8 @@ elementos , conectar el front con el back y demas
 operaciones que requiera la app.
 
 ............................................
+
+MAPA DE RUTAS
+
+archivo origen -> index.html - destino ->tarifas.html
+-ruta utilizada -> /paginas/tarifas.html
