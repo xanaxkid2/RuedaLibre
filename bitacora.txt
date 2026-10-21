@@ -55,3 +55,8 @@ MAPA DE RUTAS
 
 archivo origen -> index.html - destino ->tarifas.html
 -ruta utilizada -> /paginas/tarifas.html
+
+.............................................
+ESQUEMA DE CONTENIDOS
+/img/esquema.png
+
