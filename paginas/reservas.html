@@ -1,40 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservas-RuedaLibre</title>
+    <title>Reserva de Bicicletas - Rueda Libre</title>
 </head>
 <body>
     <main>
 
-        <h1>Reserva tu bicicleta</h1>
+        <header>
+        <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
+
+        <nav aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="/paginas/tarifas.html">Tarifas</a>
+            <a href="#">Rutas</a>
+            <a href="/paginas/reservas.html">Reservas</a>
+        </nav>
+    </header>
+
 
         <section>
+            <h2>Formulario de reserva</h2>
+            
+            <form action="procesar_reserva.php" method="POST">
+                
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    
+                    <div>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
 
-             <nav>
-            <a href="index.html">Inicio</a>
-            <a href="tarifas.html">Tarifas</a>
-            <a href="#">Rutas</a>
-            <a href="reservas.html">reservas</a>
-        </nav>
+                    <div>
+                        <label for="documento">Número de documento:</label>
+                        <input type="text" id="documento" name="documento" required>
+                    </div>
 
+                    <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
 
+                    <div>
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu alquiler</legend>
+
+                    <div>
+                        <label for="fecha">Fecha del alquiler:</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div>
+                        <label for="tipo_bici">Tipo de bicicleta:</label>
+                        <select id="tipo_bici" name="tipo_bici" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="urbana">Urbana</option>
+                            <option value="montana">Montaña</option>
+                            <option value="electrica">Eléctrica</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="plan">Plan:</label>
+                        <select id="plan" name="plan" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="1_hora">1 hora</option>
+                            <option value="medio_dia">Medio día</option>
+                            <option value="dia_completo">Día completo</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="cantidad">Cantidad de bicicletas:</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1" required>
+                    </div>
+
+                    <div>
+                        <label>Recorrido guiado:</label>
+                        <br>
+                        <input type="radio" id="guia_ninguno" name="recorrido_guiado" value="ninguno" checked>
+                        <label for="guia_ninguno">Ninguno</label>
+                        <br>
+                        <input type="radio" id="guia_ruta1" name="recorrido_guiado" value="ruta_1">
+                        <label for="guia_ruta1">Ruta 1</label>
+                        <br>
+                        <input type="radio" id="guia_ruta2" name="recorrido_guiado" value="ruta_2">
+                        <label for="guia_ruta2">Ruta 2</label>
+                        <br>
+                        <input type="radio" id="guia_ruta3" name="recorrido_guiado" value="ruta_3">
+                        <label for="guia_ruta3">Ruta 3</label>
+                    </div>
+
+                    <div>
+                        <label for="comentarios">Comentarios:</label>
+                        <br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribe aquí cualquier aclaración..."></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Confirmación</legend>
+
+                    <div>
+                        <input type="checkbox" id="politicas" name="politicas" required>
+                        <label for="politicas">Acepto las políticas de alquiler</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit">Enviar reserva</button>
+                </div>
+
+            </form>
         </section>
-
-       
-
-        <a href="https//:gmail.com">Correo de contacto</a>
-
     </main>
-
-    <footer>
+ <footer>
         <p>
-            RUEDA-LIBRE
-            Contactanos : Rueda-libre-soporte@gmail.com
-            2026 
+            RUEDA LIBRE
         </p>
+
+        <p>
+            Contáctanos:
+            <a href="mailto:Rueda-libre-soporte@gmail.com">
+                Rueda-libre-soporte@gmail.com
+            </a>
+        </p>
+
+        <p>&copy; 2026 Rueda Libre. Todos los derechos reservados.</p>
     </footer>
-    
+
 </body>
 </html>
