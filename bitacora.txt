@@ -57,6 +57,22 @@ archivo origen -> index.html - destino ->tarifas.html
 -ruta utilizada -> /paginas/tarifas.html
 
 .............................................
+
 ESQUEMA DE CONTENIDOS
 /img/esquema.png
+/img/banner.png
+/img/logo.png
+/img/mapa.jpeg
+
+..........................................
+
+MAPA DE USO DE COLOR
+
+Fondo Principal (background-color):Se utilizará el tono Crema como el fondo predominante para las secciones de contenido general, 
+tarjetas y páginas de lectura, aportando una sensación amigable, limpia y cercana.
+Fondos de Secciones Destacadas / Footer:Se empleará el Azul Noche para bloques de alto impacto visual (como el pie de página o banners principales), garantizando autoridad y contraste robusto.
+Texto General (color):Se usará Azul Noche o Gris Asfalto sobre los fondos claros (Crema), asegurando una lectura cómoda y sin fatiga visual que cumple rigurosamente con los estándares de accesibilidad.  
+ Botones (Call to Action / CTA):El fondo de los botones principales utilizará Naranja Pedal para captar la atención del usuario de inmediato. 
+ Como el texto blanco sobre Naranja Pedal solo es apto para texto grande, los textos internos de los botones irán en Azul Noche (o en blanco exclusivamente si se utiliza la variante de botón en Azul Noche) para garantizar una legibilidad óptima en cualquier dispositivo.
+ Enlaces (a):Se estipula el uso de Verde Ruta para los hipervínculos sobre fondos claros, o variaciones subrayadas en Azul Noche, manteniendo la jerarquía interactiva clara sin sacrificar el contraste.
 
