@@ -76,3 +76,12 @@ Texto General (color):Se usará Azul Noche o Gris Asfalto sobre los fondos claro
  Como el texto blanco sobre Naranja Pedal solo es apto para texto grande, los textos internos de los botones irán en Azul Noche (o en blanco exclusivamente si se utiliza la variante de botón en Azul Noche) para garantizar una legibilidad óptima en cualquier dispositivo.
  Enlaces (a):Se estipula el uso de Verde Ruta para los hipervínculos sobre fondos claros, o variaciones subrayadas en Azul Noche, manteniendo la jerarquía interactiva clara sin sacrificar el contraste.
 
+Crema (Fondo principal): #FDFBF7 (o un tono crema suave equivalente como #F5F2EB)
+
+Azul Noche (Secciones destacadas, footer, texto general, botones secundarios): #1A2530 (o un azul marino profundo como #111827)
+
+Gris Asfalto (Texto general alternativo): #4B5563 (o un gris oscuro neutro como #374151)
+
+Naranja Pedal (Botones principales / CTA): #FF6B00 (o un naranja vibrante de alta visibilidad como #FF5722)
+
+Verde Ruta (Enlaces): #10B981 (o un verde esmeralda/ruta como #059669)
