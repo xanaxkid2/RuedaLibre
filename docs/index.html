@@ -1,165 +1,207 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Rueda Libre | Alquiler de bicicletas en Medellín</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
+    <div class="fondo-esquina" aria-hidden="true"></div>
+
+    <header >
+        
+        <div ">
+            <h1 class="title" >Rueda Libre</h1>
+            <p class="p-principal">Alquiler de bicicletas en Medellín</p>
+
+        </div>
 
         <nav aria-label="Navegación principal">
             <div id="nav-bar-links">
-                <a  href="/docs/index.html">Inicio</a>
+                <a href="/docs/index.html">Inicio</a>
                 <a href="/docs/tarifas.html">Tarifas</a>
                 <a href="#">Rutas</a>
                 <a href="/docs/reservas.html">Reservas</a>
             </div>
-           
         </nav>
+
+        <img  class="banner"  src="/img/slide1.jpeg" alt="">
+
+        
     </header>
 
     <main>
 
-        <section id="inicio">
-            <h2>¡Bienvenido a Rueda Libre!</h2>
+        
+        <section id="inicio" class="contenido-flex">
+            <div class="texto">
+                <h2>¡Bienvenido a Rueda Libre!</h2>
 
-            <p>
-                Tu libertad empieza aquí: alquila la bicicleta ideal de forma
-                rápida y ecológica para explorar la ciudad, conectar con la
-                naturaleza y disfrutar cada trayecto a tu propio ritmo.
-            </p>
+                <p>
+                    Tu libertad empieza aquí: alquila la bicicleta ideal
+                    de forma rápida y ecológica para explorar la ciudad,
+                    conectar con la naturaleza y disfrutar cada trayecto
+                    a tu propio ritmo.
+                </p>
 
-            <a href="#encuentranos">¿Dónde estamos?</a>
+                <a class="boton" href="#encuentranos">
+                    ¿Dónde estamos?
+                </a>
+            </div>
 
             <img
-                src="/img/logo.png"
+                src="/img/logo03.jpeg"
                 alt="Logo de Rueda Libre"
-                width="280"
-                height="280"
+                class="imagen"
             >
         </section>
 
-        <section id="quienes-somos">
-            <h2>¿Quiénes somos?</h2>
+        <!-- QUIÉNES SOMOS -->
+        <section id="quienes-somos" class="contenido-flex">
+            <div class="texto">
+                <h2>¿Quiénes somos?</h2>
 
-            <h3>Conoce lo que somos</h3>
+                <h3>Conoce lo que somos</h3>
 
-            <p>
-                En Rueda Libre somos apasionados de la movilidad sostenible y
-                el pedal. Nos dedicamos a ofrecer experiencias sobre ruedas
-                seguras, cómodas y accesibles para que descubras la ciudad a
-                tu propio ritmo con la mejor flota de bicicletas.
-            </p>
+                <p>
+                    En Rueda Libre somos apasionados de la movilidad
+                    sostenible y el pedal. Nos dedicamos a ofrecer
+                    experiencias sobre ruedas seguras, cómodas y
+                    accesibles para que descubras la ciudad a tu
+                    propio ritmo con nuestra flota de bicicletas.
+                </p>
+            </div>
         </section>
 
-        <section id="servicios">
-            <h2>Nuestros servicios</h2>
+        <!-- SERVICIOS -->
+        <section id="servicios" class="contenido-flex">
+            <div class="texto">
+                <h2>Nuestros servicios</h2>
 
-            <h3>Múltiples opciones para ti</h3>
+                <h3>Múltiples opciones para ti</h3>
+
+                <p>
+                    Ofrecemos el alquiler flexible de bicicletas por
+                    horas, días o semanas, adaptándonos a tus necesidades
+                    con mantenimiento garantizado,
+                    <strong>cascos y accesorios incluidos</strong>,
+                    además de rutas recomendadas y opciones para grupos
+                    o eventos.
+                </p>
+
+                <a class="boton" href="/paginas/tarifas.html">
+                    Conoce las tarifas
+                </a>
+            </div>
 
             <img
-                src="/img/banner.jpeg"
+                src="/img/ban.jpeg"
                 alt="Nuestros modelos de bicicletas"
-                width="280"
-                height="280"
+                class="imagen"
             >
-
-            <p>
-                Ofrecemos el alquiler flexible de bicicletas por horas, días
-                o semanas, adaptándonos a tus necesidades con mantenimiento
-                garantizado, <strong>cascos y accesorios incluidos</strong>,
-                además de rutas recomendadas y opciones para grupos o eventos.
-            </p>
-
-            <a href="/paginas/tarifas.html">Conoce las tarifas</a>
         </section>
 
-        <section id="como-alquilar">
-            <h2>¿Cómo alquilar?</h2>
+        <!-- CÓMO ALQUILAR -->
+        <section id="como-alquilar" class="contenido-flex">
+            <div class="texto">
+                <h2>¿Cómo alquilar?</h2>
 
-            <h3>Rápido, seguro y fácil</h3>
+                <h3>Rápido, seguro y fácil</h3>
 
-            <p>
-                Alquilar con nosotros es rápido y sencillo:
-                <strong>
-                    elige el modelo de bicicleta que prefieras, selecciona
-                    las fechas y horas de tu reserva
-                </strong>
-                y confirma tu pago en línea para recogerla en nuestro punto
-                más cercano o recibirla directamente donde estés.
-            </p>
+                <p>
+                    Alquilar con nosotros es rápido y sencillo:
+                    <strong>
+                        elige el modelo de bicicleta que prefieras,
+                        selecciona las fechas y horas de tu reserva
+                    </strong>
+                    y confirma tu pago en línea para recogerla en
+                    nuestro punto más cercano o recibirla directamente
+                    donde estés.
+                </p>
 
-            <a href="/paginas/reservas.html">Alquila aquí</a>
+                <a class="boton" href="/paginas/reservas.html">
+                    Alquila aquí
+                </a>
 
-            <h3>Paso a paso</h3>
+                <h3>Paso a paso</h3>
 
-            <ol>
-                <li>
-                    Elige el modelo de bicicleta que necesites
-                    (dirt bike, BMX, fixie o bicicleta infantil).
-                </li>
-                <li>Selecciona la hora y la fecha de tu reserva.</li>
-                <li>Confirma tu reserva.</li>
-                <li>Realiza el pago de tu reserva en línea.</li>
-                <li>¡Ya puedes disfrutar de tu bicicleta!</li>
-            </ol>
+                <ol>
+                    <li>
+                        Elige el modelo de bicicleta que necesites
+                        (dirt bike, BMX, fixie o bicicleta infantil).
+                    </li>
+                    <li>Selecciona la hora y la fecha de tu reserva.</li>
+                    <li>Confirma tu reserva.</li>
+                    <li>Realiza el pago de tu reserva en línea.</li>
+                    <li>¡Ya puedes disfrutar de tu bicicleta!</li>
+                </ol>
 
-            <h3>Beneficios de utilizar la bicicleta</h3>
+                <h3>Beneficios de utilizar la bicicleta</h3>
 
-            <ul>
-                <li>Mejora la salud física y mental.</li>
-                <li>Ahorro económico.</li>
-                <li>Cuidado del medio ambiente.</li>
-            </ul>
+                <ul>
+                    <li>Mejora la salud física y mental.</li>
+                    <li>Ahorro económico.</li>
+                    <li>Cuidado del medio ambiente.</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="encuentranos">
-            <h2>Encuéntranos</h2>
+        <!-- ENCUÉNTRANOS -->
+        <section id="encuentranos" class="contenido-flex">
+            <div class="texto">
+                <h2>Encuéntranos</h2>
 
-            <h3>Ágil y sencillo</h3>
+                <h3>Ágil y sencillo</h3>
 
-             <a href="#">Soporte</a>
+                <p>
+                    ¡Nos encantaría recibirte! Visítanos en nuestro
+                    punto principal en el centro de la ciudad o
+                    encuéntranos fácilmente a través de nuestro mapa
+                    para recoger tu bicicleta y comenzar tu recorrido
+                    sin demoras.
+                </p>
 
-            <p>
-                ¡Nos encantaría recibirte! Visítanos en nuestro punto
-                principal en el centro de la ciudad o encuéntranos
-                fácilmente a través de nuestro mapa para recoger tu
-                bicicleta y comenzar tu recorrido sin demoras.
-            </p>
-
-           
+                <a class="boton" href="mailto:Rueda-libre-soporte@gmail.com">
+                    Contactar soporte
+                </a>
+            </div>
 
             <img
-                src="/img/mapa.jpeg"
+                src="/img/ubi.jpeg"
                 alt="Mapa de ubicación de Rueda Libre"
-                width="280"
-                height="280"
+                class="imagen"
             >
         </section>
 
     </main>
 
+    <!-- PIE DE PÁGINA -->
     <footer>
+
+    <div id="footer-content">
+
         <p>
             RUEDA LIBRE
         </p>
 
         <p>
             Contáctanos:
-            <a href="mailto:Rueda-libre-soporte@gmail.com">
+            <a  class="link-footer"   href="mailto:Rueda-libre-soporte@gmail.com">
                 Rueda-libre-soporte@gmail.com
             </a>
         </p>
 
         <p>&copy; 2026 Rueda Libre. Todos los derechos reservados.</p>
-    </footer>
+
+
+    </div>
 
 </body>
-
 </html>
