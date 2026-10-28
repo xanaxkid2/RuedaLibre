@@ -9,6 +9,8 @@
 
 <body>
 
+    <div class="fondo-esquina" aria-hidden="true"></div>
+
      <header class="hero">
         <div class="title">
             <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
@@ -31,9 +33,11 @@
             <h2>Formulario de reserva</h2>
             
             <form action="procesar_reserva.php" method="POST">
+
+                <label>Datos del usuario</label>
                 
                 <fieldset>
-                    <legend>Tus datos</legend>
+                
                     
                     <div>
                         <label for="nombre">Nombre completo:</label>
@@ -56,9 +60,14 @@
                     </div>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Tu alquiler</legend>
+                <label>Datos de la reserva</label>
 
+                 
+
+                <fieldset>
+
+            
+                    
                     <div>
                         <label for="fecha">Fecha del alquiler:</label>
                         <input type="date" id="fecha" name="fecha" required min="2026-10-23" max="2026-12-31">

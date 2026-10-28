@@ -206,9 +206,74 @@ footer{
     
 }
 
-.texto {
-    flex: 1;
+.flex-tarifa{
+    margin-top: var(--espacio-3);
+   
+    align-items: center;
 }
+
+.seccion-tabla {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.seccion-tabla h2 {
+    color: #172A3A;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Contenedor responsivo (permite scroll en dispositivos móviles) */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(23, 42, 58, 0.08);
+    background-color: #ffffff;
+    border: 1px solid #f0e6d6;
+}
+
+/* Tabla base */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: inherit;
+    text-align: left;
+}
+
+/* Cabecera de la tabla */
+th {
+    background-color: #172A3A; /* Azul noche */
+    color: #ffffff;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Redondear esquinas superiores de la cabecera */
+thead tr th:first-child {
+    border-top-left-radius: 15px;
+}
+thead tr th:last-child {
+    border-top-right-radius: 15px;
+}
+
+/* Celdas del cuerpo */
+td {
+    padding: 14px 20px;
+    color: #172A3A;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #f2e9dc;
+}
+
+/* Filas alternadas (Zebra striping con tono crema) */
+tbody tr:nth-child(even) {
+    background-color: #fcfaf4;
+}
+
 
 
 .imagen {
@@ -217,6 +282,15 @@ footer{
     object-fit: cover;
     border-radius: 10px;
     
+}
+
+.imagen_central{
+
+    width: 100%;
+    max-width: var(--content-width);
+    border-radius: 20px;
+    padding: 10px;
+
 }
 
 .banner{
@@ -228,7 +302,13 @@ footer{
 
 }
 
+label{
+    max-width: var(--content-width);
+    padding: var(--espacio-3);
+    margin: var(--espacio-3);
 
+
+}
 
 
 
@@ -273,8 +353,8 @@ h3{
     top: 0;
     left: 0;
 
-    width: 260px;
-    height: 260px;
+    width: 380px;
+    height: 380px;
 
     background-image: url("/img/back.jpeg");
     background-repeat: no-repeat;
@@ -302,5 +382,12 @@ footer {
         opacity: 0.15;
     }
 }
+
+#tarifas{
+
+    margin-bottom: 30px;
+
+}
+
 
 
